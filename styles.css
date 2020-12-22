@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+body {
+    background-color: #333;
+    font-family: 'Nunito', sans-serif;
+    color: #FFF;
+}
+h1, h2, h3, h4, h5, a, b{
+    font-weight: 800;
+}
+.container {
+    text-align: center;
+    margin: 100px auto;
+}
+.nameBox {
+    margin-bottom: 100px;
+}
+
+.nameBox h2{
+    font-size: 3em;
+    margin: 0
+}
+.nameBox p {
+    font-size: 1.5em;
+    opacity: 0;
+}
+
+.nameBox img {
+    height: 200px;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.button {
+    font-size: 28px;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em;
+    box-sizing: border-box;
+    min-width: 315px;
+    background-color: #4285f4;
+    border-radius: 100px;
+}
+
+.drawnNames {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+.drawnNames li {
+    display: inline-block;
+}
+.drawnNames li img {
+    height: 100px;
+}
